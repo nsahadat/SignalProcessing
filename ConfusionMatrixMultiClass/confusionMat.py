@@ -6,7 +6,7 @@ Created on Sat May 11 23:39:24 2019
 """
 import csv
 import numpy as np
-data_path ='D:\Dropbox\GATech\PhD\Publication\mTDS_SSP\matlab_code\outcome.csv'
+data_path ='..\outcome.csv'
 with open(data_path, 'r') as f:
     reader = csv.reader(f, delimiter=',')
     # get header from first row
