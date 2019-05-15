@@ -18,8 +18,8 @@ x = np.linspace(-10,10,lenx)
 
 #system output: trying different nonlinear and linear system
 #y = 5*np.ones(lenx)
-y = np.sinc(x)
-#y = np.sin(2*3.14*x)
+#y = np.sinc(x)
+y = np.sin(2*3.14*x)
 #y = np.cos(2*3.14*x)
 #y = np.exp(x)
 #y = np.exp(x) + np.exp(-x)
